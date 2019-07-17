@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100">
+  <div class="canvas">
     <div
       v-if="!config"
       style="height: calc(100vh - 63px);"
@@ -79,3 +79,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.canvas {
+  background-color: var(--bg);
+}
+</style>
